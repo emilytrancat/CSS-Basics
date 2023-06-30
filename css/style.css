@@ -19,15 +19,26 @@ footer {
     background-color: lightcoral;
 }
 
+/* Order doesn't matter too much here. But, it still plays an important role. 
+If you switched the footer style to be on top of the header style, it doesn't do
+anything. */
+
 a {
     color: darkblue;
     background-color: peachpuff;
     text-decoration: none;
 }
 
-/* Order doesn't matter too much here. But, it still plays an important role. 
-If you switched the footer style to be on top of the header style, it doesn't do
-anything. */
+#education {
+    border: 3px solid red;
+}
+
+#skills-list {
+    background-color: aliceblue;
+    padding: 36px;
+}
+
+
 
 
 
