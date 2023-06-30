@@ -38,7 +38,27 @@ a {
     padding: 36px;
 }
 
+/* class selectors identified with a dot. ID selectors identified with a # */
 
 
+.top-skill {
+    font-weight: bold;
+    background-color: teal;
+    color: papayawhip;
+}
 
+.date {
+    border: 2px solid steelblue;
+    border-radius: 12px;
+    padding: 6px;
+}
 
+.special {
+    text-transform: uppercase;
+    background-color: papayawhip;
+}
+
+#proud {
+    font-size: 48px;
+    background-color: firebrick;
+}
