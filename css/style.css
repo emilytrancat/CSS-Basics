@@ -1,16 +1,33 @@
-body {
-    text-align: center;
+/* * {
+    margin: 0;
+    padding: 0;
+    color: red; 
+} */
+
+/* removing all margin and padding by changing the value to "0" */
+
+p {
+    color: olive; 
+    font-size: 26px;
 }
 
 header {
     background-color: orange;
 }
 
-h1 {
-    font-size: 90px;
+footer {
+    background-color: lightcoral;
 }
 
-p {
-    font-size: 20px;
+a {
+    color: darkblue;
+    background-color: peachpuff;
+    text-decoration: none;
 }
+
+/* Order doesn't matter too much here. But, it still plays an important role. 
+If you switched the footer style to be on top of the header style, it doesn't do
+anything. */
+
+
 
