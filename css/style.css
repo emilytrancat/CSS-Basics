@@ -28,15 +28,39 @@ footer {
 If you switched the footer style to be on top of the header style, it doesn't do
 anything. */
 
-a {
+a:link {
     color: darkblue;
     background-color: peachpuff;
     text-decoration: none;
 }
 
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    color: white;
+    background-color: orange;
+}
+
+img:hover {
+    border: 8px solid blue;
+    border-radius: 8px;
+}
+
+
+
 ol li {
     letter-spacing: 3px;
     color: tomato;
+}
+
+ol li:first-child {
+    font-weight: bold;
 }
 
 ul li {
