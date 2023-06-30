@@ -6,6 +6,9 @@
 
 /* removing all margin and padding by changing the value to "0" */
 
+/* type selectors */
+/* short cut for writing a comment in CSS is "cmd" + "/" */
+
 p {
     color: olive; 
     font-size: 26px;
@@ -42,6 +45,8 @@ a:hover {
     text-decoration: underline;
 }
 
+/* turns links white with an orange background when they recieve focus
+(user clicks link) */
 a:focus {
     color: white;
     background-color: orange;
@@ -51,8 +56,6 @@ img:hover {
     border: 8px solid blue;
     border-radius: 8px;
 }
-
-
 
 ol li {
     letter-spacing: 3px;
@@ -66,6 +69,8 @@ ol li:first-child {
 ul li {
     list-style: none;
 }
+
+/* ID selectors below using "#" */
 
 #education {
     border: 3px solid red;
@@ -82,7 +87,7 @@ ul li {
 }
 
 /* class selectors identified with a dot. ID selectors identified with a # */
-
+/* class selectors below using "." */
 
 .top-skill {
     font-weight: bold;
