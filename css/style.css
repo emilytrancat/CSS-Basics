@@ -9,8 +9,15 @@
 /* type selectors */
 /* short cut for writing a comment in CSS is "cmd" + "/" */
 
+html {
+   font-size: 20px;
+}
+
+/* 20 x 4 is 80 pixels. html change made the h1 bigger. */
+
 h1 {
-    font-size: 90px;
+    font-size: 400%;
+    background-color: white;
 }
 
 p {
@@ -20,13 +27,27 @@ p {
 
 header {
     background-color: orange;
-    width: 960px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 header p {
     background-color: snow;
     border-bottom: 1 px solid gray;
 }
+
+#header-box {
+    width: 50%;
+    background-color: tomato;
+}
+
+img {
+    width: 100%;
+
+}
+/* notice I made the header to have a width of 80% of the screen. If you adjust the screen, it will
+always be 80% of the screen. % are relative. We also made a div (in HTML) and have a custom ID.
+Notice the div id is within the header. we made the div's width 50% of the header. It will adjust to 50% of the header, of the 80% header's width. */
 
 footer {
     background-color: lightcoral;
