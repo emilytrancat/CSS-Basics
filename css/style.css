@@ -10,15 +10,48 @@
 /* short cut for writing a comment in CSS is "cmd" + "/" */
 
 html {
-   font-size: 20px;
+   font-size: 100%; 
 }
+
+/* 100% = 1em = 16px */
 
 /* 20 x 4 is 80 pixels. html change made the h1 bigger. */
 
 h1 {
-    font-size: 400%;
+    font-size: 4em;
+    margin-bottom: 1.5rem;
     background-color: white;
 }
+
+
+/* html {
+    font-size: 20px;
+ } */
+
+/* h1 {
+    font-size: 4em;
+    margin-bottom: 1.5em;
+    background-color: white;
+} */
+
+
+/* OR */
+
+
+/* html {
+    font-size: 20px;
+ } */
+
+/* h1 {
+    font-size: 4em;
+    margin-bottom: 1.5rem;
+    background-color: white;
+} */
+
+/* rem refers to the root size of the font. See that we put 4em for the font-size, 1.5em for the margin-bottom, and font-size for 20px in the html. To calculate
+the size of the margin-bottom, it will be 20 x 4 x 1.5. The margin-bottom is 120px. If you changed the margin-bottom to 1.5rem, it always goes
+back to the root font size. This means that it'll be 1.5 rem x 20 px. 20 px is the root size font. We ignore the font-size of 4em. The new margin-bottom
+would be 30px.*/
 
 p {
     color: olive; 
